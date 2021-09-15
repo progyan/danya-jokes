@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Скачать чит-коды</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Roboto&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Скачать читы на Brawl Stars</h1>
+        <p>Чтобы скачать читы, нажмите на нужную кнопку:</p><br>
+        <button onclick="startLoading()">Диномайк</button>
+        <button onclick="startLoading()">8-бит</button>
+        <button onclick="startLoading()">Роза</button>
+        <button onclick="startLoading()">Спайк</button>
+        <button onclick="startLoading()">Нита</button>
+        <div id="loading" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>Загружаем бойца...</h2>
+                <progress value="0" max="1000" id="progb"></progress>
+                <p>Это может занять несколько минут. Пока можно свернуть сайт и зайти в приложение.</p>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
